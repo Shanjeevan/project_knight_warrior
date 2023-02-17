@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -235,9 +235,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 14fbffff
+      m_SelectedIDs: ac45ffff
+      m_LastClickedID: -47700
+      m_ExpandedIDs: de45ffff14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -568,9 +568,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.028685452, y: -0.9595756, z: 0.26058945, w: 0.104327396}
+    m_Target: {x: -0.084448196, y: -0.12143588, z: 0.01070262, w: -0.9891461}
     speed: 2
-    m_Value: {x: 0.028679729, y: -0.95938414, z: 0.26053745, w: 0.10430658}
+    m_Value: {x: -0.084431194, y: -0.121411435, z: 0.010700466, w: -0.988947}
   m_Size:
     m_Target: 1.431384
     speed: 2
@@ -698,7 +698,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 78.39996
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -758,9 +758,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b63b0400
-    m_LastClickedID: 277430
-    m_ExpandedIDs: 0000000036930000389300003a9300003c9300003e93000040930000ac3b0400be3b0400c03b0400c23b040000ca9a3b
+    m_SelectedIDs: cc280400
+    m_LastClickedID: 272588
+    m_ExpandedIDs: 0000000036930000389300003a9300003c9300003e93000040930000484f0b0000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -813,8 +813,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: be660000
-    m_LastClickedInstanceID: 26302
+    m_SelectedInstanceIDs: ac45ffff
+    m_LastClickedInstanceID: -47700
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300005c5c0000585c00005e5c0000
     m_RenameOverlay:
@@ -864,9 +864,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1164.8
+    x: 1128.8
     y: 73.6
-    width: 370.19995
+    width: 406.19995
     height: 709.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
