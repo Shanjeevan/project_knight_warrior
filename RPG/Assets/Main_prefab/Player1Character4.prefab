@@ -119,8 +119,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5292825632964608728}
-  m_LocalRotation: {x: 0.3194591, y: 1.5901949e-15, z: -2.467684e-16, w: 0.94760007}
-  m_LocalPosition: {x: 0.26335144, y: 1.8107796, z: -4.89151}
+  m_LocalRotation: {x: 0.31945908, y: -0.00000001622784, z: 0.0000000054708003, w: 0.9476001}
+  m_LocalPosition: {x: 0.26335144, y: 1.8107786, z: -4.89151}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -254,6 +254,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8027982313725841537, guid: 4da47d070966bef478b777b078e5d96f, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4da47d070966bef478b777b078e5d96f, type: 3}
 --- !u!1 &25801172522628331 stripped
@@ -261,6 +265,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 929375877773185966, guid: 4da47d070966bef478b777b078e5d96f, type: 3}
   m_PrefabInstance: {fileID: 918281773136422725}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3618087015393820851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25801172522628331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e62e00f1a215a45aeea19ed9612116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCam: {fileID: 5292825632964608731}
 --- !u!195 &6341919402973090623
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -283,19 +300,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &3618087015393820851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 25801172522628331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76e62e00f1a215a45aeea19ed9612116, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerCam: {fileID: 5292825632964608731}
 --- !u!4 &4377992643185873222 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3494693759098893827, guid: 4da47d070966bef478b777b078e5d96f, type: 3}
